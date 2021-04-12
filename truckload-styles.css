@@ -799,10 +799,41 @@ Truckload Page Styles
   padding-top: 80px;
 }
 
+/**************************
+LTL Page Styles
+**************************/
+
 #tl-banner-holdr {
   min-height: unset !important;
 }
 
 #lt-row {
   height: 50vh;
+}
+
+#padded-ltl {
+  padding: 16px 80px;
+}
+
+#padtop {
+  padding-top: 80px;
+}
+
+#gen-arrow-bottom {
+  padding-top: 120px;
+}
+
+#hero-img-right-ltl {
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/ltl-3-img-banner-scaled.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#genspeaking-img-right-ltl {
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/ltl-img-scaled-1.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -5px;
 }
